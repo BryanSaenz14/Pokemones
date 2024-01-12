@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.contenedor input {
+  display: none;
+}
+.contenedor-pokemon {
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.contenedor-pokemon-imgPokeball {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+}
+.contenedor-pokemon-imgPokemon {
+  display: none;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+}
+.contenedor-pokemon p {
+  display: none;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  width: 150px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+}
+.boton button {
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=Style.css.map */
